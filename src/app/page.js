@@ -8,7 +8,7 @@ export default function Home() {
   const robotNameList = ["Model"]
   const [robotName,set_robotName] = React.useState(robotNameList[0])
   const [cursor_vis,set_cursor_vis] = React.useState(false)
-  const [box_vis,set_box_vis] = React.useState(true)
+  const [box_vis,set_box_vis] = React.useState(false)
   const [target_error,set_target_error] = React.useState(false)
 
   const [j1_rotate,set_j1_rotate] = React.useState(0)
